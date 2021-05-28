@@ -1,0 +1,226 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+}
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+  color: #f8f8ff;
+}
+nav > ul {
+  list-style: none;
+}
+/* header start  */
+header {
+  background-color: #03045e;
+  color: #f8f8ff;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+}
+nav > .logo {
+  font-weight: 700;
+  font-size: 24px;
+}
+nav > ul {
+  display: flex;
+}
+nav > ul > li {
+  margin-left: 30px;
+  font-weight: 200;
+}
+/* header end  */
+
+/* hero section start */
+.hero {
+  height: 400px;
+  background-image: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)),
+    url('./img/hero-bg.jfif');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/* .hero > .container {
+  height: 100%;
+} */
+/* hero section end  */
+
+/* days section start  */
+.days {
+  background-color: #023e8a;
+  color: #111;
+}
+.days .container {
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  background-color: #0077b6;
+  padding-bottom: 20px;
+}
+.day {
+  padding-top: 20px;
+}
+.day:last-child {
+  padding-bottom: 20px;
+}
+.day > .container > h1 {
+  flex-basis: 50%;
+  text-align: center;
+  font-weight: 700;
+  font-size: 32px;
+  padding: 20px;
+}
+.day > .container > div {
+  flex-basis: 100%;
+  background-color: #0096c7;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  margin: 0 20px;
+}
+/* days section end  */
+
+/* about-section start */
+.about {
+  background-color: #023e8a;
+  color: #111;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+}
+.about > .container {
+  background-color: #0096c7;
+  height: 90%;
+}
+.about > .container > h1 {
+  font-weight: 700;
+  padding: 40px;
+  font-size: 32px;
+  text-align: center;
+}
+.about > .container > p {
+  font-weight: 400;
+  line-height: 1.6;
+  padding: 0 60px 10px 60px;
+  text-align: justify;
+}
+/* about-section end */
+
+/* projects section start */
+.projects {
+  background-color: #023e8a;
+  color: #111;
+  min-height: 90vh;
+  padding: 20px;
+}
+.projects a {
+  color: #333;
+  font-weight: 400;
+  text-decoration: underline;
+}
+.projects > .container {
+  background-color: #0096c7;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px auto;
+}
+.projects > .container:nth-child(even) {
+  background-color: #3a86ff;
+}
+
+.projects > .container > h1 {
+  padding: 20px;
+  flex-basis: 100%;
+  font-size: 32px;
+}
+.projects > .container > .images {
+  margin: 0 10px 10px 10px;
+  padding: 10px 0;
+  flex-basis: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.projects > .container > .images > .img-1 {
+  height: 500px;
+  flex-basis: 70%;
+}
+
+.projects > .container > .images > .img-2 {
+  flex-basis: 100%;
+  height: 400px;
+  margin: 10px 10px 0 10px;
+}
+.projects > .container > .images > .img-3 {
+  flex-basis: 27%;
+  display: flex;
+  flex-direction: column;
+}
+
+.projects > .container > .images > .img-3 > .live-demo {
+  flex-basis: 35%;
+  text-align: center;
+  background-color: #90e0ef;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.img-3 h2 {
+  padding: 5px 0;
+}
+.projects > .container > .images > .img-3 > .technologies {
+  flex-basis: 65%;
+  padding: 10px;
+  line-height: 1.3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #48cae4;
+}
+.projects > .container > .images > .img-3 > .technologies > p {
+  padding: 5px;
+}
+
+/* change images here */
+/* images for project 1 start */
+.imgp1-1 {
+  background: url('./img/100daysimg1.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.imgp1-2 {
+  background: url('./img/100daysimg1.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+/* images for project 1 end */
+
+/* images for project 2 start */
+.imgp2-1 {
+  background: url('./img/imgp2-1.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.imgp2-2 {
+  background: url('./img/imgp2-1.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+/* images for project 2 end */
+/* projects section end */
